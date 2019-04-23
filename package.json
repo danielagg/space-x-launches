@@ -1,0 +1,29 @@
+{
+  "name": "space-x-launches",
+  "version": "1.0.0",
+  "description": "todo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielagg/space-x-launches.git"
+  },
+  "author": "Daniel Agg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielagg/space-x-launches/issues"
+  },
+  "homepage": "https://github.com/danielagg/space-x-launches#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
